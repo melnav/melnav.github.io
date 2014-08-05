@@ -222,7 +222,7 @@
 	font-size: 14px;
 	line-height: 20px;
 	height: 70px;
-	color: #8b8b8b;
+	color: black;
 	z-index: 2;
 	bottom: 50%;
 	margin: 0 0 -200px 0;
@@ -237,7 +237,7 @@
 }
 
 .demo-1 .sl-slide blockquote p:before {
-	color: #f0f0f0;
+	color: black;
 	color: rgba(244,244,244,0.65);
 	font-family: "Bookman Old Style", Bookman, Garamond, serif;
 	position: absolute;
@@ -265,28 +265,28 @@
 /* First Slide */
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
-	background: #fff;
+	background: white;
 }
 
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
 .demo-1 .bg-2 .sl-content-slice {
-	background: #000;
+	background: #db84ad;
 }
 
 .demo-1 .bg-2 [data-icon]:after,
 .demo-1 .bg-2 h2 {
-	color: #fff;
+	color: black;
 }
 
 .demo-1 .bg-2 blockquote:before {
-	color: #222;
+	color: black;
 }
 
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #db84ad;
+	background: #5bc2ce ;
 }
 
 .demo-1 .bg-3 .deco {
@@ -313,7 +313,7 @@
 /* Forth Slide */
 .demo-1 .bg-4 .sl-slide-inner,
 .demo-1 .bg-4 .sl-content-slice {
-	background: #5bc2ce;
+	background: black;
 }
 
 .demo-1 .bg-4 .deco {

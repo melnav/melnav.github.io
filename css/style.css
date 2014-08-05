@@ -21,7 +21,10 @@
 /* Colors Section
 =================================================================== */
 .mail {
-  padding: 100px;
+  padding: 0px;
+  height: 100px;
+  width: 350px;
+  margin-left: 200px;
 }
 
 
@@ -78,7 +81,7 @@
 }
 
 .color.blue.transparent {
-	background: rgba(91,194,206,.8);
+	background: rgba(91,194,206,.7);
 	color: #fff;
 }
 
@@ -93,8 +96,8 @@
 
 
 .color.black {
-	background: #414141;
-	color: #fff;
+	background: black;
+	color: #379eaa;
 }
 
 .color.black i {
@@ -102,7 +105,7 @@
 }
 
 .color.black h2 span {
-	background: #414141;
+	background: black;
 }
 
 .color.yellow {
@@ -1640,8 +1643,8 @@ a.buy:hover {
 #contact-form input[type="text"] {
 	border: 0px;
 	height: 40px;
-	color: #fff;
-	background: rgba(0,0,0,.2) !important;
+	color: black;
+	background: white !important;
 	-webkit-box-shadow: none;
 	   -moz-box-shadow: none;
 		    box-shadow: none;
