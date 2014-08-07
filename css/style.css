@@ -101,7 +101,7 @@
 }
 
 .color.black i {
-	color: #414141;
+	color: #ff0199;
 }
 
 .color.black h2 span {
@@ -1645,13 +1645,13 @@ a.buy:hover {
 	border: 0px;
 	height: 40px;
 	color: black;
-	background: white !important;
+	background: #ff0199 !important;
 	-webkit-box-shadow: none;
 	   -moz-box-shadow: none;
 		    box-shadow: none;
-	-webkit-border-radius: 0px;
-	   -moz-border-radius: 0px;
-			border-radius: 0px;
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+			border-radius: 6px;
 }
 
 #contact-form textarea {

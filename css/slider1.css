@@ -181,7 +181,7 @@
 .demo-1 [data-icon]:after {
     content: attr(data-icon);
     font-family: 'AnimalsNormal';
-	color: #999;
+	color: #ff0199;
 	text-shadow: 0 0 1px #999;
 	position: absolute;
 	width: 220px;
@@ -234,6 +234,7 @@
 	width: 60%;
 	max-width: 400px;
 	position: relative;
+
 }
 
 .demo-1 .sl-slide blockquote p:before {
@@ -271,7 +272,7 @@
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
 .demo-1 .bg-2 .sl-content-slice {
-	background: #db84ad;
+	background: #ff0199;
 }
 
 .demo-1 .bg-2 [data-icon]:after,
@@ -286,7 +287,7 @@
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #5bc2ce ;
+	background: #00E4FF ;
 }
 
 .demo-1 .bg-3 .deco {
@@ -297,12 +298,12 @@
 .demo-1 .bg-3 [data-icon]:after {
 	color: #fff;
 	text-shadow: 0 0 1px #fff;
-	box-shadow: inset 0 0 0 10px #b55381;
+	box-shadow: inset 0 0 0 10px black;
 }
 
 .demo-1 .bg-3 h2,
 .demo-1 .bg-3 blockquote{
-	color: #fff;
+	color: black;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 }
 
