@@ -44,7 +44,7 @@ a [class^="fa-icon-"], a [class*=" fa-icon-"] {
 }
 
 .fa-icons {
-	font-size: 14px;
+	font-size: 17px;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-icon-large:before {
