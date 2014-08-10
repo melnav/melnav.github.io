@@ -147,7 +147,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
   color: white;
 }
@@ -1646,12 +1646,8 @@ a.buy:hover {
 	height: 40px;
 	color: black;
 	background: #ff0199 !important;
-	-webkit-box-shadow: none;
-	   -moz-box-shadow: none;
-		    box-shadow: none;
-	-webkit-border-radius: 6px;
-	   -moz-border-radius: 6px;
-			border-radius: 6px;
+
+
 }
 
 #contact-form textarea {
@@ -1661,10 +1657,7 @@ a.buy:hover {
 	-webkit-box-shadow: none;
 	   -moz-box-shadow: none;
 		    box-shadow: none;
-	-webkit-border-radius: 0px;
-	   -moz-border-radius: 0px;
-			border-radius: 0px;
-}
+
 
 /* Filters
 =================================================================== */
@@ -2175,7 +2168,7 @@ footer #social {
 
 .btn {
 	border: none;
-	background: #fbfbf9;
+	background: white;
 	color: #222222 !important;
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.35), inset 0px 2px 3px #fff;
 	   -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.35), inset 0px 2px 3px #fff;
