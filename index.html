@@ -201,27 +201,32 @@
           <div class="col-md-6 col-md-offset-3 ">
           <div id="contact-form">
 
-            <form method="post" action="">
-
-              <fieldset>
-                <div>
-                <input tabindex="4" id="name" name="name" type="text" value="" class="span5" placeholder="Prénom" >
-              </div>
-              <div>
-                <input tabindex="2" id="email" name="email" type="text" value="" class="span5" placeholder="Email">
-              </div>
-              </div>
-            </div>
-   <div class="content text-center">
-          <div class="col-md-6 col-md-offset-3 ">
-                <div class="actions ">
-                  <button tabindex="3" type="submit" class="btn btn-succes btn-large">OUI, JE LE VEUX ! </button>
+                 <form  action="http://forms.brace.io/adopteunbenevole@gmail.com" name="sentMessage" class="" id="contactForm"  method="POST" novalidatee>
+                 <div class="control-group">
+                  <div class="controls">
+                    <input type="text" class="span5" placeholder="Ton prénom" id="name" required data-validation-required-message="Please enter your name" name= "custumer_name" />
+                    <p class="help-block"></p>
+                  </div>
                 </div>
-              </div>
-            </div>
-              </fieldset>
+                <div class="control-group">
+                  <div class="controls">
+                    <input type="text" class="span5" placeholder="Ton email pour recevoir le code promo" id="email" required data-validation-required-message="Please enter your email" name= "_replyto">
+                    <p class="help-block"></p>
+                  </div>
+                </div>
 
-            </form>
+               <!-- <div class="control-group">
+                 <div class="controls">
+                   <textarea rows="10" cols="100" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter your message" minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none" name= "organization_message"></textarea>
+                   <p class="help-block"></p>
+                 </div>
+               </div>
+               <div id="success"> </div> <!-- For success/fail messages -->
+               <input class="btn btn-succes btn-large" type="submit" value="OUI JE LE VEUX !"></br>
+
+             </form>
+
+
 
 </div>
 </div>
@@ -376,15 +381,25 @@
 					<!-- start: Contact Form -->
 					<div id="contact-form">
 
-						<form method="post" action="">
-
+						<form action="http://forms.brace.io/adopteunbenevole@gmail.com" name="sentMessage" class="" id="contactForm"  method="POST" novalidate>
 							<fieldset>
 
-								<input tabindex="4" id="name" name="name" type="text" value="" class="span12" placeholder="Nom" >
-                  <input tabindex="3" id="www" name="www" type="text" value="" class="span12" placeholder="Prénom">
-								<input tabindex="2" id="email" name="email" type="text" value="" class="span12" placeholder="Email">
+						         <div class="control-group">
+                  <div class="controls">
+                    <input type="text" class="span12" placeholder="Votre nom" id="nomasso" required data-validation-required-message="Merci de renseigner le nom de votre association" name= "organization_nomasso" />
 
-								<textarea tabindex="3" class="input-xlarge span12" id="message" name="body" rows="7" placeholder="Votre message"></textarea>
+                  </div>
+
+                 <div class="control-group">
+                  <div class="controls">
+                    <input type="text" class="span12" placeholder="Votre prénom" id="address" required data-validation-required-message="Merci de renseigner l'adresse' de votre association" name= "organization_address" />
+
+						   <div class="control-group">
+                  <div class="controls">
+                    <input type="text" class="span12" placeholder="Email" id="email" required data-validation-required-message="Merci de renseigner un email" name= "_replyto">
+                     </div>
+                </div>
+			 <textarea tabindex="3" class="input-xlarge span12" id="message" name="body" rows="7" placeholder="Votre message"></textarea>
 
 								<div class="actions">
 									<button tabindex="3" type="submit" class="btn btn-succes btn-large">ENVOYER</button>
